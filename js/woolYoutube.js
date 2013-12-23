@@ -54,6 +54,8 @@
  	proto.search = function (q, callback) {
  		var string = '', url = '';
 
+ 		videos = [];
+
  		if (!config.key) {
  			throw ('Не указан ключ разработчика!!!');
  		} else {
