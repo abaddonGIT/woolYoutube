@@ -1,7 +1,7 @@
 woolYoutube
 ===========
 
-jQuery плагин для поиска и вывода видео на youtube.
+jQuery плагин для поиска и вывода видео на youtube. (<a href="http://angular.demosite.pro/youtube/">Демо</a>)
 
 <h3>Параметры плагина:</h3>
 <ul>
