@@ -15,17 +15,11 @@ jQuery плагин для поиска и вывода видео на youtube.
 <h3>Как использовать?</h3>
 <pre>
 woolYoutube.search(string, function (videos) {
-    var ln = videos.length;
-    result.html('');
     if (videos.length) {
-        for(var i = 0; i < ln; i++) {
-            result.append('&lt;div class="trailer"&gt;' +
-                        '&lt;iframe width="640" height="360" src="http://www.youtube.com/embed/' + videos[i].id + '" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;' +
-                        '&lt;/div&gt;');
-            }
-        } else {
-            alert("По вашему запросу не чего не было найдено!");
-        }
+        console.log(videos);
+    } else {
+        alert("По вашему запросу не чего не было найдено!");
+    }
 });
 </pre>
 <hr />
@@ -46,16 +40,10 @@ jQuery plugin for search and display video from youtube.
 <h3>How to use it?</h3>
 <pre>
 woolYoutube.search(string, function (videos) {
-    var ln = videos.length;
-    result.html('');
     if (videos.length) {
-        for(var i = 0; i < ln; i++) {
-            result.append('&lt;div class="trailer"&gt;' +
-                        '&lt;iframe width="640" height="360" src="http://www.youtube.com/embed/' + videos[i].id + '" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;' +
-                        '&lt;/div&gt;');
-            }
-        } else {
-            alert("No results!");
-        }
+        console.log(videos);
+    }  else {
+        alert("No results!");
+    }
 });
 </pre>
