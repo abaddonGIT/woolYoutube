@@ -19,9 +19,9 @@ woolYoutube.search(string, function (videos) {
     result.html('');
     if (videos.length) {
         for(var i = 0; i < ln; i++) {
-            result.append('<div class="trailer">' +
-                        '<iframe width="640" height="360" src="http://www.youtube.com/embed/' + videos[i].id + '" frameborder="0" allowfullscreen></iframe>' +
-                        '</div>');
+            result.append('&lt;div class="trailer"&gt;' +
+                        '&lt;iframe width="640" height="360" src="http://www.youtube.com/embed/' + videos[i].id + '" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;' +
+                        '&lt;/div&gt;');
             }
         } else {
             alert("По вашему запросу не чего не было найдено!");
@@ -50,9 +50,9 @@ woolYoutube.search(string, function (videos) {
     result.html('');
     if (videos.length) {
         for(var i = 0; i < ln; i++) {
-            result.append('<div class="trailer">' +
-                        '<iframe width="640" height="360" src="http://www.youtube.com/embed/' + videos[i].id + '" frameborder="0" allowfullscreen></iframe>' +
-                        '</div>');
+            result.append('&lt;div class="trailer"&gt;' +
+                        '&lt;iframe width="640" height="360" src="http://www.youtube.com/embed/' + videos[i].id + '" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;' +
+                        '&lt;/div&gt;');
             }
         } else {
             alert("No results!");
